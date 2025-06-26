@@ -45,32 +45,32 @@
   <main>
     <div class="container">
       <div class="row">
-        <div class="col-12 my-4"><!--Title-->
+        <div class="col-12 py-4"><!--Title-->
           <h2>Nuovo Libro</h2>
         </div>
-        <div class="col-6"><!--Name-->
+        <div class="col-6 pb-3"><!--Name-->
           <form action="" method="post">
             <label for="" class="form-label fw-semibold">Nome Autore</label>
-            <input type="text" class="form-control mb-3" name="nome-autore" placeholder="Inserisci il nome dell'autore"
+            <input type="text" class="form-control" name="nome-autore" placeholder="Inserisci il nome dell'autore"
               required>
           </form>
         </div>
-        <div class="col-6"><!--Surname-->
+        <div class="col-6 pb-3"><!--Surname-->
           <form action="" method="post">
             <label for="" class="form-label fw-semibold">Cognome Autore</label>
-            <input type="text" class="form-control mb-3" name="cognome-autore"
-              placeholder="Inserisci il cognome dell'autore" required>
+            <input type="text" class="form-control" name="cognome-autore" placeholder="Inserisci il cognome dell'autore"
+              required>
           </form>
         </div>
-        <div class="col-12"><!--Book title-->
+        <div class="col-12 pb-3"><!--Book title-->
           <form action="" method="post">
             <label for="" class="form-label fw-semibold">Titolo</label>
             <input type="text" class="form-control" name="book-title" placeholder="Inserisci il titolo del libro"
               required>
-            <div class="form-text mb-3" id="basic-addon4">Titolo versione italiana</div>
+            <div class="form-text pb-3" id="basic-addon4">Titolo versione italiana</div>
           </form>
         </div>
-        <div class="col-12 col-lg-4"><!--Genre-->
+        <div class="col-12 col-lg-4 pb-3"><!--Genre-->
           <label for="" class="form-label fw-semibold">Genere</label>
           <select class="form-select">
             <option selected>Scegli il genere</option>
@@ -79,30 +79,29 @@
             <option value="3">Three</option>
           </select>
         </div>
-        <div class="col-12 col-lg-4"><!--Year of publication-->
+        <div class="col-12 col-lg-4 pb-3"><!--Year of publication-->
           <form action="" method="post">
             <label for="" class="form-label fw-semibold">Anno di Pubblicazione</label>
-            <input type="text" class="form-control mb-3" name="year-publication" placeholder="Inserisci l'anno"
-              required>
+            <input type="text" class="form-control" name="year-publication" placeholder="Inserisci l'anno" required>
           </form>
         </div>
-        <div class="col-12 col-lg-4"><!--ISBN code-->
+        <div class="col-12 col-lg-4 pb-3"><!--ISBN code-->
           <form action="" method="post">
             <label for="" class="form-label fw-semibold">ISBN#</label>
-            <input type="text" class="form-control mb-3" name="isbn" placeholder="Inserisci il codice ISBN#"
-              maxlength="13" required>
+            <input type="text" class="form-control" name="isbn" placeholder="Inserisci il codice ISBN#" maxlength="13"
+              required>
           </form>
         </div>
         <hr class="my-4">
         <div class="col-12"><!--Note-->
-          <div class="mb-3">
+          <div class="pb-3">
             <label class="form-label fw-semibold">Note</label>
             <textarea class="form-control" placeholder="Inserisci eventuali note sul libro" name="note"
               style="height: 100px"></textarea>
           </div>
         </div>
         <div class="col-12"><!--Checkbox-->
-          <div class="form-check mb-3">
+          <div class="form-check pb-3">
             <input class="form-check-input" type="checkbox" value="" id="checkDefault">
             <label class="form-check-label" for="checkDefault">
               Disponibile anche in digitale
@@ -110,7 +109,7 @@
           </div>
         </div>
         <div class="col-12 "><!--Add Button-->
-          <div class="mb-3">
+          <div class="pb-3">
             <form action="">
               <a href="#" type="submit" class="btn btn-primary">Aggiungi Libro</a>
             </form>
